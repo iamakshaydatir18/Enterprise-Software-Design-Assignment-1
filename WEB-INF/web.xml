@@ -1,0 +1,46 @@
+<web-app>
+  <servlet>
+    <servlet-name>Assignment2Servlet</servlet-name>
+    <servlet-class>Assignment2Servlet</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>Assignment3Servlet</servlet-name>
+    <servlet-class>Assignment3Servlet</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>Assignment4Servlet</servlet-name>
+    <servlet-class>Assignment4Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Assignment5Servlet</servlet-name>
+    <servlet-class>Assignment5Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Assignment2Servlet</servlet-name>
+    <url-pattern>/assignment2.html</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Assignment3Servlet</servlet-name>
+    <url-pattern>/assignment3.html</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Assignment3Servlet</servlet-name>
+    <url-pattern>/assignment3details.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Assignment4Servlet</servlet-name>
+    <url-pattern>/assignment4.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Assignment4Servlet</servlet-name>
+    <url-pattern>/assignment4details.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Assignment5Servlet</servlet-name>
+    <url-pattern>/assignment5.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Assignment5Servlet</servlet-name>
+    <url-pattern>/assignment5details.html</url-pattern>
+  </servlet-mapping>
+</web-app>
